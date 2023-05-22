@@ -1,9 +1,9 @@
-export const gentlemanData = [
+export const caspaData = [
   {
     id: 1,
     name: "Bertin Osborne",
     status: "Alive",
-    profession: "Youtuber",
+    profession: "Voxtuber",
     twitter: "@osbourne",
     picture: "./bertin.jpeg",
     alternativeText: "Osbourne pointing at you",
@@ -23,7 +23,7 @@ export const gentlemanData = [
     id: 3,
     name: "Julius Churchs",
     status: "Alive",
-    profession: "Java developer",
+    profession: "Padre del 2% de la población",
     twitter: "@julius_churchs",
     picture: "./julio.jpeg",
     alternativeText: "Churchs pointing at you",

@@ -1,4 +1,4 @@
-import { gentlemanData } from "../data/caspa.mock";
+import { caspaData } from "../data/caspa.mock";
 
 export type Caspa = {
   id: number;
@@ -18,16 +18,14 @@ export function Info() {
 
   return (
     <>
-      {gentlemanData.map(
+      {caspaData.map(
         ({
-          id,
           name,
           status,
           profession,
           twitter,
           picture,
           alternativeText,
-          selected,
         }: Caspa) => (
           <ul className="gentlemen">
             <li className="gentleman">
