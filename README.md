@@ -7,36 +7,5 @@ Crea una aplicación React a partir de esta maqueta. Identifica qué datos del H
 Utiliza los siguientes componentes: App, Info, Button (Select All), Gentleman
 
 ```javascript
-[
-  {
-    id: 1,
-    name: "Bertin Osborne",
-    status: "Alive",
-    profession: "Youtuber",
-    twitter: "@osbourne",
-    picture: "bertin.jpg",
-    alternativeText: "Osbourne pointing at you",
-    selected: true,
-  },
-  {
-    name: "The Farytale",
-    status: "RIP",
-    profession: "Influencer",
-    twitter: "pending",
-    picture: "fary.jpg",
-    alternativeText: "The Fary pointing at you",
-    id: 2,
-    selected: false,
-  },
-  {
-    id: 3,
-    name: "Julius Churchs",
-    status: "Alive",
-    profession: "Java developer",
-    twitter: "@julius_churchs",
-    picture: "julio.jpg",
-    alternativeText: "Churchs pointing at you",
-    selected: true,
-  },
-];
+
 ```
