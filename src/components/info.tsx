@@ -1,15 +1,5 @@
 import { caspaData } from "../data/caspa.mock";
-
-export type Caspa = {
-  id: number;
-  name: string;
-  status: string;
-  profession: string;
-  twitter: string;
-  picture: string;
-  alternativeText: string;
-  selected: boolean;
-};
+import { Caspa } from "../models/Caspa";
 
 export function Info() {
   const professionTitle = "Profesión:";
